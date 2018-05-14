@@ -4,6 +4,7 @@ import {render} from 'react-dom';
 import MapGL, {Marker, Popup} from 'react-map-gl';
 import MeetupPin from './meetup-pin';
 import MeetupInfo from './meetup-info';
+import { MeetUpContext } from "./App";
 
  // instead of importing this json object, need to make one in here
 
